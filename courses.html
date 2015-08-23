@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<head>
+
+<script type="text/javascript" src="javascript/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="main.css" rel="stylesheet" />
+<title>Courses</title>
+</head>
+<body>
+
+<div id="mainWrap">
+  <div id="menu"> 
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="map.html">Map</a></li>
+      </ul>
+    </nav>
+  </div><!-- Main Menu div -->
+
+  <div id="banner">
+    <img src="images/banner.jpg" width="960" height="220" alt="banner">
+  </div>
+
+  <main>
+
+  <div id="courses_wrap">
+      <div class="tabs">
+          <ul class="tab-links">
+              <li class="active"><a href="#tab6">All Courses</a></li>
+              <li><a href="#tab1">Digital Publishing</a></li>
+              <li><a href="#tab2">Gaming</a></li>
+              <li><a href="#tab3">Imaging</a></li>
+              <li><a href="#tab4">Reproduction Technology</a></li>
+              <li><a href="#tab5">Web Development</a></li>
+          </ul>
+          <div class="UpAndLower"
+          <ul>
+          <li><input name="Lower" input id="check"type="checkbox" class="toggleLower">Lower</li>
+          <li><input name="Upper" type="checkbox" class="toggleUpper">Upper</li>
+          </ul>
+          </div>
+          <div id="course_title">
+  			Browse <br>Your<br> Courses
+  		</div><!-- Course title -->
+      </div>
+      
+      <div id="tab_wrap">
+          <div class="tabs">
+              <div class="tab-content">
+                  <div id="tab1" class="tab">
+                  <div><h1>Digital Publishing</h1></div>
+                  <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>333<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Printing Technology</td>
+                    </tr>
+                    <tr>
+                      <td>437<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Color Reproduction Systems</td>
+                    </tr>
+                    <tr>
+                      <td>450<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Digital Workflow in Graphic Industries</td>
+                    </tr>
+                  </table>
+                  
+                  </div>
+                  
+                  <div id="tab2" class="tab">
+                  <div><h1>Gaming</h1></div>
+                  <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>211<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Video Game Art</td></td>
+                    </tr>
+                    <tr>
+                      <td>312<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>3-D Computer Graphics Modeling and Representation</td>
+                    </tr>
+                    <tr>
+                      <td>411<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Computer Animation</td>
+                    </tr>
+                  </table>
+                  
+                  </div>
+                  
+                  <div id="tab3" class="tab">
+                  <div><h1>Imaging</h1></div>
+                  <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>294<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Video</td></td>
+                    </tr>
+                    <tr>
+                      <td>295<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Technical Imaging</td></td>
+                    </tr>
+                    <tr>
+                      <td>334<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Image Capture and Manipulation</td>
+                    </tr>
+                    <tr>
+                      <td>490<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Advanced Commercial Photography</td>
+                    </tr>
+                  </table>
+                  
+                  </div>
+                  
+                  <div id="tab4" class="tab">
+                  <div><h1>Reproduction Technology</h1></div>
+                  <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>333<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Printing Technology</td>
+                    </tr>
+                    <tr>
+                      <td>334<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Image Capture and Manipulation</td>
+                    </tr>
+                    <tr>
+                      <td>437<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Color Reproduction Systems</td>
+                    </tr>
+                    <tr>
+                      <td>450<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Digital Workflow in Graphics Industries</td>
+                    </tr>
+                  </table>
+                  
+                  </div>
+                  
+                  <div id="tab5" class="tab">
+                  <div><h1>Web Development</h1></div>
+                  <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>237<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Web Content Design</td></td>
+                    </tr>
+                    <tr>
+                      <td>414<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Website Design and Internet/Web Technologies</td>
+                    </tr>
+                    <tr>
+                      <td>417<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Advanced Internet Programming</td>
+                    </tr>
+                    <tr>
+                      <td>418<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Multimedia Authoring, Scripting and Production</td>
+                    </tr>
+                    <tr>
+                      <td>435<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Web Management and E-Commerce</td>
+                    </tr>
+                  </table>
+                  
+                  </div><!--tab5 -->
+                  
+                  <div id="tab6" class="tab active">
+                    <table border="1">
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Course Title</th>
+                    </tr>
+                    <tr>
+                      <td>110<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Technical Graphics</td></td>
+                    </tr>
+                    <tr>
+                      <td>135<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Graphic Communications</td></td>
+                    </tr>
+                    <tr>
+                      <td>210<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Creative Thinking and Design Visualization</td></td>
+                    </tr>
+                    <tr>
+                      <td>211<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Video Game Art</td></td>
+                    </tr>
+                    <tr>
+                      <td>215<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Graphics Programming</td></td>
+                    </tr>
+                    <tr>
+                      <td>230<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Digital Illustration in Publishing</td></td>
+                    </tr>
+                    <tr>
+                      <td>237<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Web Content Design</td></td>
+                    </tr>
+                    <tr>
+                      <td>294<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Video</td></td>
+                    </tr>
+                    <tr>
+                      <td>295<span class="lower hidden"><span class="highlight">●</span></span></td>
+                      <td>Introduction to Techinal Imaging</td></td>
+                    </tr>
+                    <tr>
+                      <td>301<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Website Development for Nonmajors</td>
+                    </tr>
+                    <tr>
+                      <td>303<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Digital Publishing</td>
+                    </tr>
+                    <tr>
+                      <td>312<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>3-D Computer Graphics Modelling and Representation</td>
+                    </tr>
+                    <tr>
+                      <td>314<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Multimedia Design, Planning and Storyboards</td>
+                    </tr>
+                    <tr>
+                      <td>333<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Printing Technology</td>
+                    </tr>
+                    <tr>
+                      <td>334<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Image Capture and Manipualtion</td>
+                    </tr>
+                    <tr>
+                      <td>335<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Computer Systems Technology</td>
+                    </tr>
+                    <tr>
+                      <td>384<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Commercial Photography</td>
+                    </tr>
+                    <tr>
+                      <td>411<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Computer Animation</td>
+                    </tr>
+                    <tr>
+                      <td>413<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Professional Portfolio Design and Presentation</td>
+                    </tr>
+                    <tr>
+                      <td>414<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Web Site Design and Internet/Web Technologies</td>
+                    </tr>
+                    <tr>
+                      <td>417<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Advanced Internet Programming</td>
+                    </tr>
+                    <tr>
+                      <td>418<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Multimedia Authoring, Scripting, and Production</td>
+                    </tr>
+                    <tr>
+                      <td>432<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Graphic Industry Business Practices</td>
+                    </tr>
+                    <tr>
+                      <td>435<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Web Management and E-Commerce</td>
+                    </tr>
+                    <tr>
+                      <td>437<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Color Reproduction Systems</td>
+                    </tr>
+                    <tr>
+                      <td>450<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Digital Workflow in Graphic Industries</td>
+                    </tr>
+                    <tr>
+                      <td>490<span class="upper hidden"><span class="highlightYellow">●</span></span></td>
+                      <td>Advanced Commercial Photography
+                    </tr>
+                  </table>
+                  </div>
+              </div><!--tab-content -->
+          </div><!--tabs -->
+      </div><!--tab_wrap-->
+  </div><!--wrap_for_the_course_wrap -->
+
+
+  <section>
+  Arizona State University
+  </section>
+
+  <div id="previewIMGS">
+    <img src="images/5556716972_c13a9ebd88_z.jpg" alt="ASU"><img src="images/5556649124_1cd73118d2_z.jpg" alt="ASU"><img src="images/Optimized-2010_Spring_Undergrad_Commencement_7731a.jpg" alt="ASU">
+  </div>
+  </main>
+
+  <footer>
+  Graphic Information Technology<br>
+  Picacho Hall 245<br>
+  7171 E. Sonoran Arroyo Mall<br>
+  Mesa, AZ 85212<br>
+  ask.git@asu.edu<br>
+  </footer>
+
+</div><!-- mainWrap Div -->
+</body>
+</html>

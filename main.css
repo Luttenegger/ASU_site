@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainWrap {
+	max-width:968px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#banner {
+	margin-bottom:-4px;
+}
+
+nav {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-bottom:-16px;
+	padding-right:8px;
+	width:quto;
+	list-style:none;
+	float:right;
+}
+
+body h1 {
+	margin-top:-5px;
+}
+
+nav li {
+	display:inline-block;
+	height:35px;
+	text-align:center;
+	padding-top:10px;
+}
+
+h2 a:link, h2 a:visited {
+	text-decoration:none;
+	color:#fff;
+	transition:all linear 0.15s;
+}
+
+h2 a:hover{
+	color:#F90;
+}
+
+nav a:link, li a:visited {
+	text-decoration:none;
+	padding-left:10px;
+	display:inline-block;
+	text-align:center;
+	padding:9px 15px;
+	border-radius:3px 3px 0px 0px;
+	background:#600;
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	transition:all linear 0.15s;
+}
+
+nav li a:hover{
+	background:#F90;
+}
+
+body { 
+background: #9a0032; /* Old browsers */
+background: -moz-linear-gradient(top,  #9a0032 0%, #ffb310 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9a0032), color-stop(100%,#ffb310)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9a0032 0%,#ffb310 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9a0032 0%,#ffb310 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9a0032 0%,#ffb310 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9a0032 0%,#ffb310 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a0032', endColorstr='#ffb310',GradientType=0 ); /* IE6-9 */
+
+color:white;
+}
+
+body h2 {
+	margin-top:0px;
+	color: #FFF;
+}
+
+/******************************* Main Content ******************************/
+
+main {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width:960px;
+	background-color: rgba(85,85,85,0.6);
+}
+
+#GIT {
+	/*background-color:red;*/
+	line-height:50px;
+	padding: 30px 20px 10px 50px;
+	float: left;
+	font-size: 60px;
+	color: #FFF;
+}
+
+#course_title {
+	
+	overflow:hidden;
+	width:250px;
+	height:350px;
+	background-image:url(images/art.jpg);
+	line-height:60px;
+	margin-top:15px;
+	padding: 100px 50px 10px 50px;
+	font-size: 52px;
+	color: #FFF;
+}
+
+.yellow { 
+	color:#FFFD04; 
+}
+
+#ScheduleTour {
+	text-align:center;
+	width:200px;
+	line-height:50px;
+	margin: 30px 50px 10px 35px;
+	float: left;
+	font-size: 54px;
+}
+
+#ScheduleTour a:link, a:visited {
+	padding-left:10px;
+	display:inline-block;
+	color:#fff;
+	text-align:center;
+}
+
+#ScheduleTour a:hover{
+	color:#F90;
+	transition:all linear 0.15s;
+}
+
+#AboutCampus {
+	float:left;
+	text-align:center;
+	width:200px;
+	margin: 30px 50px 10px 50px;
+	line-height:30px;
+	overflow:hidden;
+	font-size:20px;
+	
+}
+
+#AboutCampus a:link, a:visited {
+	color:#FFF;
+	text-align:center;
+}
+
+#AboutCampus a:hover{
+	color:#F39E19;
+	transition:all linear 0.15s;
+}
+
+#AboutCampus a:active {
+	color:#F90;
+}
+
+
+#courses {
+	text-align:center;
+	margin-top:-250px;
+	max-width:440px;
+	/*background-color:blue;*/
+}
+
+#hours {
+	float:left;
+	color:#FFF;
+	text-align:center;
+	width:200px;
+	padding-top:30px;
+	margin: 50px 50px 10px 50px;
+	line-height:20px;
+	overflow:hidden;
+	font-size:20px;
+}
+
+#article_wrap{
+	width:480px;
+	float:right;
+}
+article {
+	font-size:20px;
+	padding: 10px 20px 10px 10px;
+	overflow: hidden;
+	color: #FFF;
+}
+
+section {
+	clear:both;
+	padding-top: 40px;
+	font-size:34px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #FFF;
+	max-width: 900px;
+	border-bottom:thin #FFF groove;
+}
+
+#previewIMGS {
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+}
+
+#previewIMGS img {
+	padding: 0px 10px 0px 10px;
+	width:287px;
+	height:179px;
+}
+
+footer {
+	color:#FFF;
+	padding: 10px 0px 5px 30px;
+}
+
+#map {
+	padding: 30px 35px 0px 0px;
+	float:right;
+}
+
+iframe {
+	width:600px;
+	height:450px;
+	border:none;
+}
+
+#user_button.active {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px; /* user-agent specific */
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px; /* etc... */
+	
+}
+
+.UpAndLower ul {
+	width:200px;
+}
+.UpAndLower li {
+	display:inline-block;
+}
+
+/******************************* jQuery toggles ******************************/
+#courses_wrap{
+	overflow:hidden;
+	height:725px;
+	margin:0px 25px -20px 25px;
+}
+
+#tab_wrap {
+	margin-top:20px;
+	border: groove 1px #fff;
+	height:720px;
+	float:right;
+	width:540px;
+	background:#333;
+}
+
+table {
+	text-align:left;
+	width:510px;
+}
+
+.hidden {
+	text-align:right;
+	display:none;
+}
+
+.highlight{
+	padding-left:15px;
+	color:#0F0;
+}
+
+.highlightYellow{
+	padding-left:15px;
+	color:#FF0;
+}
+
+
+/*----- Tabs -----*/
+.tabs {
+    display:inline-block;
+}
+
+.lowertabs {
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+.tab-links:after {
+	content:'';
+}
+ 
+.tab-links li {
+	margin-left:-50px;
+	padding:10px;
+	list-style:none;
+}
+
+.tab-links a { /*words*/
+	text-decoration:none;
+	text-align:center;
+	padding:9px 15px;
+	border-radius:3px 3px 0px 0px;
+	background:#9A0A33;
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	transition:all linear 0.15s;
+}
+ 
+.tab-links a:hover {
+	background:#F90;
+	text-decoration:none;
+}
+ 
+li.active a, li.active a:hover {
+	background:#FF0;
+	color:#4c4c4c;
+}
+ 
+    /*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px 15px 5px 15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.tab {
+	display:none;
+}
+ 
+.tab.active {
+	display:block;
+}
+
+
+/*************************** Player tabs ************************/
+#featured_lab{
+	width:300px;
+	padding-left:40px;
+	font-size:40px;
+	
+}
+#vid-wrap {
+	margin-left:40px;
+}
+#tabs-vid-wrap {
+	float:left;
+	padding-top:50px;
+	width: 450px;
+	overflow:hidden;
+	margin-left:15px;
+}
+
+ 
+.tab-links-vid li {
+	display:inline-block;
+	list-style:none;
+}
+
+.tab-links-vid a { /*words*/
+	text-decoration:none;
+	text-align:center;
+	padding:9px 15px;
+	border-radius:3px 3px 0px 0px;
+	background:#9A0A33;
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	transition:all linear 0.15s;
+}
+ 
+.tab-links-vid a:hover {
+	background:#F90;
+	text-decoration:none;
+}
+
+/******************** Resources *****************/
+
+.my_links li{
+	padding-top:-10px;
+	list-style:none;
+	margin-bottom:-10px;
+	margin-top:-10px;
+}
+
+#Resources h2 {
+	color:#FFB30F;
+	font-size:36px;
+	padding:20px 20px 0px 30px;
+}
+
+#Resources-title {
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-top: -50px;
+}
+
+#result {
+	font-size:24px;
+	float:right;
+	padding:0px 30px 0px 20px;
+	width: 400px;
+}
+
+#result a:link, a:visited {
+	color:#F39E19;
+}
+
+#result a:hover{
+	color:#FF0;
+	transition:all linear 0.15s;
+}
+
+#result a:active {
+	color:#F90;
+}
+
+.my_choices {
+	padding-left: 30px;
+
+
+
